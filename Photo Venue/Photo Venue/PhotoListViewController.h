@@ -1,0 +1,13 @@
+//
+//  PhotoListViewController.h
+//  Photo Venue
+//
+//  Created by Carlos Folgar on 8/15/12.
+//  Copyright (c) 2012 Carlos Folgar. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface PhotoListViewController : UITableViewController
+@property (nonatomic, strong) NSArray *photoList;
+@end
